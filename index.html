@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Клуб четырёх коней</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./fonts.css" />
+    <link rel="stylesheet" href="./animation.css" />
+    <link rel="stylesheet" href="./adaptive.css" />
+  </head>
+  <body>
+    <header class="header header-tint">
+      <div class="logo"></div>
+      <div class="container">
+        <div class="title">
+          <p class="title-text">Превратите уездный город</p>
+          <p class="title-text">в столицу</p>
+          <p class="title-text">земного шара</p>
+        </div>
+        <p class="subtitle">
+          Оплатите взнос на телеграммы для организации Международного
+          васюкинского турнира по шахматам
+        </p>
+        <div class="buttons">
+          <button
+            class="button support-button"
+            onclick="location.href='#support'"
+          >
+            <p class="button-text">Поддержать шахматную мысль</p>
+          </button>
+          <button
+            class="button about-button"
+            onclick="location.href = '#stages'"
+          >
+            <p class="button-text">Подробнее о турнире</p>
+          </button>
+        </div>
+      </div>
+      <img class="city" src="./images/city.png" alt="City" />
+      <img class="path" src="./images/path.png" alt="Conture" />
+      <div class="sun sun-tint">
+        <div class="sun-text"></div>
+      </div>
+      <div class="pawn"></div>
+      <img class="knight" src="./images/knight.png" alt="Knight" />
+      <img class="king" src="./images/king.png" alt="King" />
+      <img class="queen" src="./images/queen.png" alt="Queen" />
+    </header>
+    <section class="runline">
+      <p class="runline_text"></p>
+    </section>
+    <section id="support" class="support-chess">
+      <div class="support-header">
+        <h3 class="support-title">
+          Чтобы поддержать Международный васюкинский турнир<img
+            class="support-logo"
+            src="./images/support-logo.png"
+            alt="Logo support"
+          />
+          посетите лекцию на тему:
+          <span class="span">«Плодотворная дебютная идея»</span>
+        </h3>
+      </div>
+      <div class="support-bender">
+        <img
+          class="grossmeister-image"
+          src="./images/grossmeister2.jpg"
+          alt="grossmeister"
+        />
+        <div class="support-container">
+          <h3 class="support-title support-title-bender">
+            и Сеанс
+            <span class="span">одновременной игры в шахматы на 160 досках</span>
+            гроссмейстера О. Бендера
+          </h3>
+          <div class="table">
+            <div class="table-row">
+              <p class="table-title table-title-first">Место проведения:</p>
+              <p class="table-subtitle table-subtitle-first">
+                Клуб «Картонажник»
+              </p>
+            </div>
+            <div class="table-row">
+              <p class="table-title">Дата и время мероприятия:</p>
+              <p class="table-subtitle">22 июня 1927 г. в 18:00</p>
+            </div>
+            <div class="table-row">
+              <p class="table-title">Стоимость входных билетов:</p>
+              <p class="table-subtitle">20 коп.</p>
+            </div>
+            <div class="table-row">
+              <p class="table-title">Плата за игру:</p>
+              <p class="table-subtitle">50 коп.</p>
+            </div>
+            <div class="table-row">
+              <p class="table-title table-title-last">Взнос на телеграммы:</p>
+              <p class="table-subtitle table-subtitle-last">
+                <span class="table-strike"
+                  ><span class="table-span">100 руб.</span></span
+                >21 руб. 16 коп.
+              </p>
+            </div>
+          </div>
+          <p class="support-contact">
+            По всем вопросам обращаться в администрацию к К. Михельсону
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="stages" class="stages">
+      <h3 class="stages-title">
+        Этапы преображения Васюков
+        <p class="stages-subtitle">Будущие источники обогащения васюкинцев</p>
+      </h3>
+      <div class="plate-window">
+        <div class="plates">
+          <div class="plate plate-tilt">
+            <p class="plate-number">1</p>
+            <p class="plate-text">
+              Строительство железнодорожной <br />магистрали Москва-Васюки
+            </p>
+          </div>
+          <div class="plate plate-tilt">
+            <p class="plate-number">2</p>
+            <p class="plate-text">
+              Открытие фешенебельной гостиницы «Проходная <br />пешка» и других
+              небоскрёбов
+            </p>
+          </div>
+          <div class="plate plate-tilt">
+            <p class="plate-number">3</p>
+            <p class="plate-text">
+              Поднятие сельского <br />хозяйства в радиусе <br />на тысячу
+              километров: производство овощей, <br />фруктов, икры, шоколадных
+              конфет
+            </p>
+          </div>
+          <div class="plate plate-tilt">
+            <p class="plate-number">4</p>
+            <p class="plate-text">Строительство дворца <br />для турнира</p>
+          </div>
+          <div class="plate plate-tilt">
+            <p class="plate-number">5</p>
+            <p class="plate-text">
+              Размещение гаражей <br />для гостевого <br />автотранспорта
+            </p>
+          </div>
+          <div class="plate plate-tilt">
+            <p class="plate-number">6</p>
+            <p class="plate-text">
+              Постройка сверхмощной радиостанции для передачи всему миру
+              сенсационных результатов
+            </p>
+          </div>
+          <div class="plate plate-tilt">
+            <p class="plate-number">7</p>
+            <p class="plate-text">
+              Создание аэропорта «Большие Васюки» с регулярным отправлением
+              почтовых самолётов и дирижаблей во все концы света, включая
+              Лос-Анжелос и Мельбурн
+            </p>
+          </div>
+          <img class="plane" src="./images/plane.png" alt="plane" />
+        </div>
+      </div>
+      <div class="plates-buttons">
+        <button class="plate-button plate-button-prev"></button>
+        <p class="dot">•</p>
+        <p class="dot">•</p>
+        <p class="dot">•</p>
+        <p class="dot">•</p>
+        <p class="dot">•</p>
+        <button class="plate-button plate-button-next"></button>
+      </div>
+    </section>
+    <section class="member">
+      <h3 class="member-title">Участники турнира</h3>
+      <div class="button-container">
+        <button class="member-button prev-button"></button>
+        <p class="counter">3</p>
+        <span class="member-text">/6</span>
+        <button class="member-button next-button"></button>
+      </div>
+      <div class="cards">
+        <div class="cards-line">
+          <div class="card">
+            <img class="card-photo" src="./images/card.png" alt="card" />
+            <p class="card-name">Хозе-Рауль Капабланка</p>
+            <p class="card-about">Чемпион мира по шахматам</p>
+            <button class="card-button">Подробнее</button>
+          </div>
+          <div class="card">
+            <img class="card-photo" src="./images/card.png" alt="card" />
+            <p class="card-name">Эммануил Ласкер</p>
+            <p class="card-about">Чемпион мира по шахматам</p>
+            <button class="card-button">Подробнее</button>
+          </div>
+          <div class="card">
+            <img class="card-photo" src="./images/card.png" alt="card" />
+            <p class="card-name">Александр Алехин</p>
+            <p class="card-about">Чемпион мира по шахматам</p>
+            <button class="card-button">Подробнее</button>
+          </div>
+          <div class="card">
+            <img class="card-photo" src="./images/card.png" alt="card" />
+            <p class="card-name">Арон Нимцович</p>
+            <p class="card-about">Чемпион мира по шахматам</p>
+            <button class="card-button">Подробнее</button>
+          </div>
+          <div class="card">
+            <img class="card-photo" src="./images/card.png" alt="card" />
+            <p class="card-name">Рихард Рети</p>
+            <p class="card-about">Чемпион мира по шахматам</p>
+            <button class="card-button">Подробнее</button>
+          </div>
+          <div class="card">
+            <img class="card-photo" src="./images/card.png" alt="card" />
+            <p class="card-name">Остап Бендер</p>
+            <p class="card-about">Гроссмейстер</p>
+            <button class="card-button">Подробнее</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="runline">
+      <p class="runline_text"></p>
+    </section>
+    <footer class="footer">
+      <p class="footer-text">
+        Все персонажи, события и цитаты являются вымышленными и не принадлежат
+        создателям сайта. С подробностями можно познакомиться в главе XXXIV
+        романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

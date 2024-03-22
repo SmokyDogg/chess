@@ -1,0 +1,338 @@
+@media (min-width: 1367px) {
+  .logo {
+    margin: 26px 0 62px 349px;
+  }
+  .container {
+    margin-left: 349px;
+  }
+  .city {
+    margin: 0 0 0 161px;
+  }
+  .sun {
+    margin-left: 951px;
+  }
+  .path {
+    left: 158px;
+  }
+  .pawn {
+    left: 1516px;
+  }
+  .knight {
+    margin-left: 1113px;
+  }
+  .king {
+    left: 1007px;
+  }
+  .queen {
+    left: 1340px;
+  }
+}
+@media (max-width: 375px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: 774px;
+  }
+  .logo {
+    width: 213px;
+    background-image: url(./images/logo-mobile.png);
+    background-repeat: no-repeat;
+    margin: 18px 0 40px 19px;
+  }
+  .container {
+    width: 335px;
+    margin-left: 19px;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .subtitle {
+    text-align: start;
+  }
+  .buttons {
+    margin: 32px 0 0;
+    flex-direction: column;
+  }
+  .button {
+    width: 335px;
+    height: 47px;
+  }
+  .button-text {
+    width: 335px;
+    height: 21px;
+  }
+  .about-button {
+    background-color: #ffffff;
+    opacity: 0.9;
+    mix-blend-mode: multiply;
+    border: none;
+    margin: 14px 0 0;
+  }
+  .sun {
+    background-image: url(./images/sun-mobile.png);
+    margin-left: 30px;
+    width: 297px;
+    height: 297px;
+    top: 409px;
+    border-radius: 0;
+    background-color: #ffffff;
+    background-position: center;
+  }
+  .sun-text {
+    background-image: none;
+  }
+  .city {
+    width: 885px;
+    height: 246px;
+    bottom: 0;
+    margin-left: -401px;
+  }
+  .path {
+    width: 874px;
+    height: 252px;
+    left: -403px;
+  }
+  .pawn {
+    display: none;
+  }
+  .knight {
+    width: 107px;
+    margin-left: 146px;
+  }
+  .king {
+    height: 116px;
+    top: 540px;
+    left: 63px;
+  }
+  .queen {
+    height: 105px;
+    top: 497px;
+    left: 230px;
+    rotate: 10deg;
+  }
+  .runline {
+    padding: 10px;
+  }
+  .runline_text {
+    font-size: 16px;
+  }
+  .support-chess {
+    margin: 48px 0 0 19px;
+  }
+  .support-header {
+    flex-direction: column;
+    width: 336px;
+  }
+  .support-title {
+    font-size: 28px;
+    width: 335px;
+  }
+  .support-logo {
+    position: relative;
+    width: 335px;
+    margin: 24px 0 24px;
+  }
+  .support-bender {
+    margin: 34px 0 0;
+    width: 335px;
+    flex-direction: column;
+  }
+  .grossmeister-image {
+    width: 335px;
+    height: 402px;
+  }
+  .support-container {
+    margin: 0;
+    width: 335px;
+  }
+  .table {
+    margin: 60px 0 0;
+    gap: 20px;
+  }
+  .table-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .table-title {
+    display: table-row;
+    border: none;
+    padding-bottom: 16px 0 12px 0;
+  }
+  .table-title-last {
+    padding-bottom: 12px;
+  }
+  .table-subtitle {
+    width: 335px;
+    display: table-row;
+    padding: 0 0 16px 0;
+  }
+  .table-subtitle-last {
+    padding-bottom: 0;
+  }
+  .support-contact {
+    margin: 40px 0 0;
+    font-size: 18px;
+    width: 335px;
+  }
+  .stages {
+    margin: 120px 0 0 19px;
+    width: 335px;
+    position: relative;
+  }
+  .stages-title {
+    width: 335px;
+    font-size: 36px;
+  }
+  .stages-subtitle {
+    margin: 12px 0 0;
+    font-size: 18px;
+    z-index: 9;
+  }
+  .plane {
+    width: 318px;
+    position: absolute;
+    top: -130px;
+    left: 8px;
+  }
+  .plate-window{
+    width: 355px;
+    overflow: hidden;
+  }
+  .plates {
+    position: relative;
+    display: grid;
+    width: 1755px;
+    margin: 192px 0 28px;
+    grid-template-columns: 335px 335px 335px 335px 335px;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "one three four six seven"
+      "two three five six seven";
+    justify-content: start;
+    gap: 0 20px;
+    transition: all ease 1s;
+  }
+  .plate {
+    display: flex;
+    width: 335px;
+    margin-right: 20px;
+  }
+  .plate-number {
+    margin: 0 16px 0 0;
+    padding: 0;
+  }
+  .plate-text {
+    width: 243px;
+    font-size: 18px;
+    margin: 0;
+  }
+  .plate:first-child {
+    padding: 62px 0 0 20px;
+    height: 150px;
+  }
+  .plate:nth-child(2) {
+    height: 150px;
+    padding: 28px 0 0 20px;
+  }
+  .plate:nth-child(3) {
+    padding: 62px 0 0 20px;
+    height: 300px;
+  }
+  .plate:nth-child(4) {
+    padding: 62px 0 0 20px;
+    height: 150px;
+  }
+  .plate:nth-child(5) {
+    padding: 28px 0 0 20px;
+    height: 150px;
+  }
+  .plate:nth-child(6) {
+    padding: 62px 0 0 20px;
+    height: 300px;
+  }
+  .plate:nth-child(7){
+    padding: 62px 0 0 20px;
+    height: 300px;
+  }
+  .plates-buttons {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 178px;
+    height: 36px;
+  }
+  .plate-button {
+    margin: 0 10px;
+    padding: 0;
+    border-radius: 50%;
+    border: 0;
+    min-width: 36px;
+    height: 36px;
+    font-size: 16px;
+    background-color: #313131;
+    align-self: center;
+    cursor: pointer;
+  }
+  .plate-button:hover {
+    background-color: #fbce51;
+  }
+  .plate-button:disabled {
+    background-color: #d9d9d9;
+  }
+  .dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 10px;
+    height: 10px;
+    margin: 0 6px;
+  }
+  .plate-button-prev {
+    background-image: url(./images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .plate-button-next {
+    background-image: url(./images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+  }
+  .member{
+    width: 335px;
+    margin: 120px 0 176px 20px;
+  }
+  .member-title{
+    font-size: 36px;
+    margin: 0 0 40px 0;
+  }
+  .member-button{
+    width: 36px;
+    height: 36px;
+  }
+  .cards{
+    width: 355px;
+  }
+  .card{
+    min-width: 355px;
+    height: 388px;
+  }
+  .card-name{
+    margin: 28px 0 8px 0;
+  }
+  .card-photo{
+    width: 244px;
+    height: 244px;
+  }
+  .button-container{
+    top: 548px;
+    left: 135px;
+  }
+  .footer{
+    height: 252px;
+  }
+  .footer-text{
+    width: 335px;
+    margin: 78px 0 60px 20px;
+  }
+}
